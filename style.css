@@ -1,0 +1,26 @@
+:root {
+   --clr-base: #00172D;
+   --clr-primary: #0080ff;
+}
+
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+   box-sizing: inherit;
+}
+
+html {
+   font-size: 62.5%;
+   box-sizing: inherit;
+}
+
+body {
+   font-size: 1.6rem;
+}
+
+canvas {
+   display: block;
+   background-color: var(--clr-base);
+}
